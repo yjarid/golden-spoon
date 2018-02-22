@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="styles.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script  src="Navig.js"> </script>
+    <title>Golden Spoon</title>
+  </head>
+
+
+  <body>
+
+    <div class="container">
+      <header>
+
+      <section class="layoutHeaderSection">
+          <div class="left">
+              <div class="headerLinks">
+                  <a href="#">Digital Editions</a>
+                  <a href="#">Newsletters</a>
+              </div>
+              <!-- The NEW 'Search Bar' is made up of two <div>'s.  The OLD 'Search Bar' is made up of a <form> and a <div>. -->
+
+              <div class="materialize-row no-side-spacing nav-search">
+                <!--topNavSearchMenu_showing comes from the popup panel, and is used here to show the right state of the spyglass-->
+                <span class="search-spyglass">
+                    <img alt="Search" height="23" width="23" src="https://images.media-allrecipes.com/assets/eatingWell/svg/icon/shared/search-magnifier-green.svg" />
+                </span>
+                <input id="searchText"  type="text" placeholder="Search EatingWell">
+              </div>
+
+          </div>
+
+
+                  <div class="eatingWellLogo ">
+                      <a href="http://www.eatingwell.com">
+                      <img alt="EatingWell" src="https://images.media-allrecipes.com/assets/eatingWell/svg/icon/shared/eatingwell_logo.svg" />
+                      </a>
+                  </div>
+                  <div class="right">
+                      <div class="signUp">
+                        <a href="#">JOIN NOW</a>
+                      </div>
+                  </div>
+  </section>
+
+      <!-- MAIN NAvigation -->
+        <nav class="main-navigation">
+          <ul class="parent">
+            <li><a href="#">Moroccan</a>
+              <div class="subMenu">
+                <ul class="child">
+                  <li><a href="#">Vegetable Tajine</a></li>
+                  <li><a href="#">Couscous</a></li>
+                  <li><a href="#">Soup & Harira</a></li>
+                  <li><a href="#">Salad</a></li>
+                  <li><a href="#">Cookies and sweets</a></li>
+                  <li><a href="#">Bastilla</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">African</a>
+              <div class="subMenu ">
+                <ul class="child">
+                  <li><a href="#">North African</a></li>
+                  <li><a href="#">South African</a></li>
+                  <li><a href="#">Easter African</a></li>
+                  <li><a href="#">Equatorial African</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">European </a>
+              <div class="subMenu ">
+                <ul class="child">
+                  <li><a href="#">Italian </a></li>
+                  <li><a href="#">Spanish </a></li>
+                  <li><a href="#">Frensh </a></li>
+                  <li><a href="#">Northern Europ </a></li>
+                  <li><a href="#">Eastern Europ </a></li>
+                  <li><a href="#">Other</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Asian</a>
+              <div class="subMenu ">
+                <ul class="child">
+                  <li><a href="#">Thai </a></li>
+                  <li><a href="#">Chinese </a></li>
+                  <li><a href="#">Indian </a></li>
+                  <li><a href="#">Filipino </a></li>
+                  <li><a href="#">vientnam </a></li>
+                  <li><a href="#">Other</a></li>
+                </ul>
+              </div>
+            </li>
+            <li ><a href="#">American </a>
+              <div class="subMenu ">
+                <ul class="child">
+                  <li><a href="#">Burger</a></li>
+                  <li><a href="#">Subs</a></li>
+                  <li><a href="#">Lasagne</a></li>
+                  <li><a href="#">Barbeque</a></li>
+                  <li><a href="#">Other</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Latino </a>
+              <div class="subMenu ">
+                <ul class="child">
+                  <li><a href="#">Carebean </a></li>
+                  <li><a href="#">South America </a></li>
+                  <li><a href="#">other</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Healthy</a>
+              <div class="subMenu ">
+                <ul class="child">
+                  <li><a href="#">Salad</a></li>
+                  <li><a href="#">soups</a></li>
+                  <li><a href="#">other</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+      </header>
+
+<section>
+  <div class="categoryGrid">
+    <div class="categoryCard">
+      <div class="cardImg">
+        <a href="http://www.eatingwell.com/recipes/18258/" class="categoryCardLink">
+                <img src="https://images.media-allrecipes.com/images/70327.jpg" class="categoryCardImage" alt="Quick &amp; Easy Recipes">
+      </a>  
+      </div>
+    <span class="categoryCardText">Quick &amp; Easy</span>
+    </div>
+
+    <div class="categoryCard">
+      <div class="cardImg">
+        <a href="http://www.eatingwell.com/recipes/17947/" class="categoryCardLink" >
+                  <img src="https://images.media-allrecipes.com/images/71112.jpg" class="categoryCardImage" alt="Dinner Recipes">
+        </a>
+      </div>
+      <span class="categoryCardText">Dinner</span>
+    </div>
+
+    <div class="categoryCard">
+      <div class="cardImg">
+        <a href="http://www.eatingwell.com/recipes/17916/mealtimes/breakfast-brunch/" class="categoryCardLink">
+                  <img src="https://images.media-allrecipes.com/images/70221.jpg" class="categoryCardImage" alt="Breakfast Recipes">
+              </a>
+      </div>
+      <span class="categoryCardText">Breakfast</span>
+    </div>
+
+    <div class="categoryCard">
+      <div class="cardImg">
+        <a href="http://www.eatingwell.com/recipes/17963/mealtimes/lunch/" class="categoryCardLink" >
+                  <img src="https://images.media-allrecipes.com/images/69272.jpg" class="categoryCardImage" alt="Lunch Recipes">
+        </a>
+      </div>
+      <span class="categoryCardText">Lunch</span>
+    </div>
+
+    <div class="categoryCard">
+      <div class="cardImg">
+        <a href="http://www.eatingwell.com/recipes/17990/mealtimes/snacks/" class="categoryCardLink" >
+                  <img src="https://images.media-allrecipes.com/images/70641.jpg" class="categoryCardImage" alt="Snacks Recipes">
+        </a>
+      </div>
+        <span class="categoryCardText">Snacks</span>
+    </div>
+
+    <div class="categoryCard">
+      <div class="cardImg">
+        <a href="http://www.eatingwell.com/recipes/17949/drinks/" class="categoryCardLink" >
+                  <img src="https://images.media-allrecipes.com/images/70970.jpg" class="categoryCardImage" alt="Drinks Recipes">
+              </a>
+      </div>
+        <span class="categoryCardText">Drinks</span>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  </body>
+
+</html>
