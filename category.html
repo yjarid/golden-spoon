@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="temp/styles/styles.css">
     <script
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <script  src="Navig.js"> </script>
     <title>Golden Spoon</title>
   </head>
@@ -19,36 +20,34 @@
     <div class="container">
       <header>
 
-      <section class="layoutHeaderSection">
-          <div class="left">
-              <div class="headerLinks">
-                  <a href="#">Digital Editions</a>
-                  <a href="#">Newsletters</a>
-              </div>
-              <!-- The NEW 'Search Bar' is made up of two <div>'s.  The OLD 'Search Bar' is made up of a <form> and a <div>. -->
-
-              <div class="materialize-row no-side-spacing nav-search">
-                <!--topNavSearchMenu_showing comes from the popup panel, and is used here to show the right state of the spyglass-->
-                <span class="search-spyglass">
-                    <img alt="Search" height="23" width="23" src="https://images.media-allrecipes.com/assets/eatingWell/svg/icon/shared/search-magnifier-green.svg" />
-                </span>
-                <input id="searchText"  type="text" placeholder="Search EatingWell">
-              </div>
-
+        <section class="layoutHeaderSection">
+          <div class="eatingWellLogo ">
+              <a href="http://www.eatingwell.com">
+              <img alt="GoldenSpoon" src="./incl/img/logo.png" />
+              </a>
           </div>
 
+            <div class="left">
+                <!-- The NEW 'Search Bar' is made up of two <div>'s.  The OLD 'Search Bar' is made up of a <form> and a <div>. -->
+                <p>Find a Recipe !</p>
+                <div class="searchBox">
+                  <input type="text" placeholder="Search for a Recipe !!!"class="searchBox-input" >
+                  <div class="searchBox-iconcontainer">
+                    <i class="fas fa-search searchBox-icon"></i>
+                  </div>
+                </div>
 
-                  <div class="eatingWellLogo ">
-                      <a href="http://www.eatingwell.com">
-                      <img alt="EatingWell" src="https://images.media-allrecipes.com/assets/eatingWell/svg/icon/shared/eatingwell_logo.svg" />
-                      </a>
-                  </div>
-                  <div class="right">
-                      <div class="signUp">
-                        <a href="#">JOIN NOW</a>
-                      </div>
-                  </div>
-  </section>
+            </div>
+
+                    <div class="right">
+                        <div class="signUp">
+                          <a href="#">SignUp</a>
+                        </div>
+                        <div class="logIn">
+                          <a href="#">LogIn</a>
+                        </div>
+                    </div>
+    </section>
 
       <!-- MAIN NAvigation -->
         <nav class="main-navigation">
@@ -136,64 +135,146 @@
 <section>
   <div class="categoryGrid">
     <div class="categoryCard">
-      <div class="cardImg">
-        <a href="http://www.eatingwell.com/recipes/18258/" class="categoryCardLink">
-                <img src="https://images.media-allrecipes.com/images/70327.jpg" class="categoryCardImage" alt="Quick &amp; Easy Recipes">
-      </a>  
+      <div class="categoryImg">
+        <a href="#" class="categoryCardLink">
+                <img src="./incl/img/cat1.jpg" class="categoryCardImage" alt="Quick &amp; Easy Recipes">
+      </a>
       </div>
-    <span class="categoryCardText">Quick &amp; Easy</span>
+    <span class="categoryText">Quick &amp; Easy</span>
     </div>
 
     <div class="categoryCard">
-      <div class="cardImg">
-        <a href="http://www.eatingwell.com/recipes/17947/" class="categoryCardLink" >
-                  <img src="https://images.media-allrecipes.com/images/71112.jpg" class="categoryCardImage" alt="Dinner Recipes">
+      <div class="categoryImg">
+        <a href="#" class="categoryCardLink" >
+                  <img src="./incl/img/cat2.jpg" class="categoryCardImage" alt="Dinner Recipes">
         </a>
       </div>
-      <span class="categoryCardText">Dinner</span>
+      <span class="categoryText">Dinner</span>
     </div>
 
     <div class="categoryCard">
-      <div class="cardImg">
-        <a href="http://www.eatingwell.com/recipes/17916/mealtimes/breakfast-brunch/" class="categoryCardLink">
-                  <img src="https://images.media-allrecipes.com/images/70221.jpg" class="categoryCardImage" alt="Breakfast Recipes">
+      <div class="categoryImg">
+        <a href="#" class="categoryCardLink">
+                  <img src="./incl/img/cat3.jpg" class="categoryCardImage" alt="Breakfast Recipes">
               </a>
       </div>
-      <span class="categoryCardText">Breakfast</span>
+      <span class="categoryText">Breakfast</span>
     </div>
 
     <div class="categoryCard">
-      <div class="cardImg">
-        <a href="http://www.eatingwell.com/recipes/17963/mealtimes/lunch/" class="categoryCardLink" >
-                  <img src="https://images.media-allrecipes.com/images/69272.jpg" class="categoryCardImage" alt="Lunch Recipes">
+      <div class="categoryImg">
+        <a href="#" class="categoryCardLink" >
+                  <img src="./incl/img/cat4.jpg" class="categoryCardImage" alt="Lunch Recipes">
         </a>
       </div>
-      <span class="categoryCardText">Lunch</span>
+      <span class="categoryText">Lunch</span>
     </div>
 
     <div class="categoryCard">
-      <div class="cardImg">
-        <a href="http://www.eatingwell.com/recipes/17990/mealtimes/snacks/" class="categoryCardLink" >
-                  <img src="https://images.media-allrecipes.com/images/70641.jpg" class="categoryCardImage" alt="Snacks Recipes">
+      <div class="categoryImg">
+        <a href="#" class="categoryCardLink" >
+                  <img src="./incl/img/cat1.jpg" class="categoryCardImage" alt="Snacks Recipes">
         </a>
       </div>
-        <span class="categoryCardText">Snacks</span>
+        <span class="categoryText">Snacks</span>
     </div>
 
     <div class="categoryCard">
-      <div class="cardImg">
-        <a href="http://www.eatingwell.com/recipes/17949/drinks/" class="categoryCardLink" >
-                  <img src="https://images.media-allrecipes.com/images/70970.jpg" class="categoryCardImage" alt="Drinks Recipes">
+      <div class="categoryImg">
+        <a href="#" class="categoryCardLink" >
+                  <img src="./incl/img/cat2.jpg" class="categoryCardImage" alt="Drinks Recipes">
               </a>
       </div>
-        <span class="categoryCardText">Drinks</span>
+        <span class="categoryText">Drinks</span>
     </div>
+  </div>
+</section>
+
+<section>
+  <div class="cardTop">
+    <div  class="cardsTitle">Recipes</div>
+    <div class="sortedBY">
+      <div class="containerSort">
+        <span  class="toSort1">Sorted by </span>
+        <span class="toSort2"> Date </span>
+      </div>
+    </div>
+  </div>
+  <div class="categoryCardsContainer">
+    <article class="card">
+
+      <a href="#" >
+
+          <img class="cardImage" src="./incl/img/IMG1.jpg">
+
+        <h3 class="cardTitle">  Traditional Greek Salad </h3>
+    </a>
+        <div class="cardDescription">Called horiatiki, this lettuce-free salad made up of tomatoes, cucumber, bell pepper, onion, olives and feta is one of the most popular Greek dishes. It is traditionally served with bread, not pita.</div>
+
+    </a>
+    </article>
+
+    <article class="card">
+
+      <a href="#" >
+
+        <div class="cardImage">
+            <img src="./incl/img/IMG2.jpg">
+        </div>
+
+
+
+        <h3 class="cardTitle">  Traditional Greek Salad </h3>
+    </a>
+        <div class="cardDescription">Called horiatiki, this lettuce-free salad made up of tomatoes, cucumber, bell pepper, onion, olives and feta is one of the most popular Greek dishes. It is traditionally served with bread, not pita.</div>
+
+    </a>
+    </article>
+
+    <article class="card">
+
+      <a href="#" >
+
+        <img class="cardImage" src="./incl/img/IMG3.jpg">
+
+        <h3 class="cardTitle">  Traditional Greek Salad </h3>
+    </a>
+        <div class="cardDescription">Called horiatiki, this lettuce-free salad made up of tomatoes, cucumber, bell pepper, onion, olives and feta is one of the most popular Greek dishes. It is traditionally served with bread, not pita.</div>
+
+    </a>
+    </article>
+
+    <article class="card">
+
+      <a href="#" >
+
+        <img class="cardImage" src="./incl/img/IMG4.jpg">
+
+        <h3 class="cardTitle">  Traditional Greek Salad </h3>
+    </a>
+        <div class="cardDescription">Called horiatiki, this lettuce-free salad made up of tomatoes, cucumber, bell pepper, onion, olives and feta is one of the most popular Greek dishes. It is traditionally served with bread, not pita.</div>
+
+    </a>
+    </article>
+
+    <article class="card">
+
+      <a href="#" >
+
+        <img class="cardImage" src="./incl/img/IMG5.jpg">
+
+        <h3 class="cardTitle">  Traditional Greek Salad </h3>
+    </a>
+        <div class="cardDescription">Called horiatiki, this lettuce-free salad made up of tomatoes, cucumber, bell pepper, onion, olives and feta is one of the most popular Greek dishes. It is traditionally served with bread, not pita.</div>
+
+    </a>
+    </article>
   </div>
 </section>
 
 
 
-
+</div>
 
   </body>
 
